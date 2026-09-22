@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h2>About This Application</h2>
-    <p>The Assignment Submission Tracker is a Vue.js 3 application built to help students efficiently monitor school assignments across different subjects and types, ensuring deadlines are never missed.</p>
+    <p>The Assignment Submission Tracker is a Vue.js 3 application built to help students efficiently monitor their academic assignments.</p>
   </div>
 </template>
 
