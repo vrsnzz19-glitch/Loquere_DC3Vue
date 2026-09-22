@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h2>Welcome to the Assignment Submission Tracker!</h2>
-    <p>Keep your academic life organized. Easily track your Written Works, Programming tasks, Presentations, and Projects in one place.</p>
+    <p>Keep your academic life organized.</p>
     <router-link to="/assignments" class="btn">Get Started</router-link>
   </div>
 </template>
