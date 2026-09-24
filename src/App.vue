@@ -15,32 +15,8 @@
 </template>
 
 <style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f4f7f6;
-  color: #333;
-}
-.navbar {
-  background-color: #2c3e50;
-  color: white;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  margin-left: 1.5rem;
-  font-weight: bold;
-}
-.nav-links a.router-link-exact-active {
-  color: #42b983;
-}
-.container {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
+body { font-family: Arial, sans-serif; margin: 0; color: #000; }
+.navbar { padding: 0.5rem 1rem; }
+.nav-links a { margin-left: 1rem; text-decoration: none; color: inherit; }
+.container { max-width: 800px; margin: 1rem auto; padding: 0 1rem; }
 </style>

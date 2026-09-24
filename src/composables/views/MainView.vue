@@ -23,7 +23,5 @@ function handleAdd(newAssignment) {
 </script>
 
 <style scoped>
-.main-view h2 {
-  margin-bottom: 1rem;
-}
+.main-view h2 { margin-bottom: 0.5rem; }
 </style>

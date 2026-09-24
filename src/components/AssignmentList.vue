@@ -1,5 +1,5 @@
 <template>
-  <div class="assignment-list">
+  <div>
     <h3>Assignment List</h3>
     <p v-if="assignments.length === 0">No assignments added yet.</p>
     <ul>
@@ -28,14 +28,5 @@ defineEmits(['toggle-status', 'delete-assignment'])
 </script>
 
 <style scoped>
-.assignment-list {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
+ul { list-style: none; padding: 0; }
 </style>

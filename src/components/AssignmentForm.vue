@@ -1,19 +1,19 @@
 <template>
-  <form @submit.prevent="submitForm" class="assignment-form">
+  <form @submit.prevent="submitForm">
     <h3>Add New Assignment</h3>
-    <p v-if="error" class="error">{{ error }}</p>
-    
-    <div class="form-group">
+    <p v-if="error" style="color:red">{{ error }}</p>
+
+    <div>
       <label>Assignment Name:</label>
-      <input type="text" v-model="form.name" placeholder="e.g. Math Problem Set" />
+      <input type="text" v-model="form.name" />
     </div>
 
-    <div class="form-group">
+    <div>
       <label>Subject:</label>
-      <input type="text" v-model="form.subject" placeholder="e.g. Calculus" />
+      <input type="text" v-model="form.subject" />
     </div>
 
-    <div class="form-group">
+    <div>
       <label>Submission Type:</label>
       <select v-model="form.type">
         <option disabled value="">Select type</option>
@@ -24,12 +24,12 @@
       </select>
     </div>
 
-    <div class="form-group">
+    <div>
       <label>Due Date:</label>
       <input type="date" v-model="form.dueDate" />
     </div>
 
-    <button type="submit" class="submit-btn">Add Assignment</button>
+    <button type="submit">Add Assignment</button>
   </form>
 </template>
 
